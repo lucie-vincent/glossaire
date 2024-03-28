@@ -13,6 +13,7 @@
 - [English](#english)
 
 ## Général
+
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
     
 
@@ -36,24 +37,24 @@
     En PHP, les superglobales sont des variables prédéfinies (internes) dont la portée est globale : elles sont toujours disponibles. Il en existe 9. Ex : $GLOBALS références les variables disponibles dans 1 contexte global.
 
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
-    ●	Chaine de caractère (string) :  $chaine = « Hello world » ;
-    ●	Entier (integer) : $entier = 29 ; Un nombre sans virgule
-    ●	Flottant (float) : $flottant = 10.35 ; Un nombre à virgule
-    ●	Booléen (bool) : $booleen = true ; Utilisé pour exprimer valeur de vérité : True / False
-    ●	Tableau (array) : $tableau = [« Marie » => 5 , « Jeanne » => 8, « Paul » => 7]
+    +	Chaine de caractère (string) :  $chaine = « Hello world » ;
+    +	Entier (integer) : $entier = 29 ; Un nombre sans virgule
+    +	Flottant (float) : $flottant = 10.35 ; Un nombre à virgule
+    +	Booléen (bool) : $booleen = true ; Utilisé pour exprimer valeur de vérité : True / False
+    +	Tableau (array) : $tableau = [« Marie » => 5 , « Jeanne » => 8, « Paul » => 7]
 Liste, collection, qui associe 1 clé à 1 valeur (tableau associatif) 
-    ●	NULL : $valeur = NULL ; Une variable qui n’a pas de valeur assignée
+    +	NULL : $valeur = NULL ; Une variable qui n’a pas de valeur assignée
 
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
-    ●	Tableau indexé sans clé : $tableau = [« bonjour », « coucou », « salut »] ;
-    ●	Tableau associatif : $tableau = [« Marie » => 5 , « Jeanne » => 8, « Paul » => 7]
+    +	Tableau indexé sans clé : $tableau = [« bonjour », « coucou », « salut »] ;
+    +	Tableau associatif : $tableau = [« Marie » => 5 , « Jeanne » => 8, « Paul » => 7]
     « Marie » = clé (key)	|	5 = valeur (value)
 
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
-    ●	Structure conditionnelle : une instruction qui n’est exécutée que si une condition est validée.
-    ●	If / Ternaire
-    ●	Structure itérative (à répétition) : une instruction (un ensemble de) est répétée plusieurs fois
-    ●	while (Tant que) : condition de  bouclage | for (Pour) : itération définie
+    +	Structure conditionnelle : une instruction qui n’est exécutée que si une condition est validée.
+    +	If / Ternaire
+    +	Structure itérative (à répétition) : une instruction (un ensemble de) est répétée plusieurs fois
+    +	while (Tant que) : condition de  bouclage | for (Pour) : itération définie
 
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
     strlen($string) : int – retourne la taille d’une chaine de caractères.
@@ -74,16 +75,16 @@ Liste, collection, qui associe 1 clé à 1 valeur (tableau associatif)
     À noter: cette function doit être appelée avant instructions au navigateur (echo, print,…)
 
 15.	Définir la partie « front-end » et « back-end » d’une application
-    ●	Front-end : côté client ; fait référence à ce que voient les utilisateurs : texte, boutons,… et avec lesquels les utilisateurs peuvent interagir (menus de navigation,…) : HTML, CSS,JavaScript.  Ce que les utilisateurs voient.
-    ●	Back-end : côté serveur ; fait référence aux fonctionnalités générales de l’application. Traite les demandes dues aux interactions des utilisateurs. : Requêtes http, serveur de base de données  Ce qui fait fonctionner l’application
+    +	Front-end : côté client ; fait référence à ce que voient les utilisateurs : texte, boutons,… et avec lesquels les utilisateurs peuvent interagir (menus de navigation,…) : HTML, CSS,JavaScript.  Ce que les utilisateurs voient.
+    +	Back-end : côté serveur ; fait référence aux fonctionnalités générales de l’application. Traite les demandes dues aux interactions des utilisateurs. : Requêtes http, serveur de base de données  Ce qui fait fonctionner l’application
 
 16.	Définir le contrôle de version ? Qu’est-ce que Git ?
-    ●	Contrôle de version : pratique qui consiste à suivre et à gérer les changements apportés au code d’un logiciel
-    ●	Git est un système de contrôle de version (Version Control  Système) – parmi les plus populaire, gratuit et open source.
+    +	Contrôle de version : pratique qui consiste à suivre et à gérer les changements apportés au code d’un logiciel
+    +	Git est un système de contrôle de version (Version Control  Système) – parmi les plus populaire, gratuit et open source.
 
 17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
     Content Management System. Programme qui permet de créer, modifier un site internet (blog, vente en ligne…)
-    ●	WordPress, PrestaShop, Drupal
+    +	WordPress, PrestaShop, Drupal
 
 
 ## Front-end
@@ -100,20 +101,30 @@ Liste, collection, qui associe 1 clé à 1 valeur (tableau associatif)
 
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
     Le format de données JSON (JavaScript Object Notation) est dérivé de la notation des objets du langage JavaScript. Il peut comprendre des objets (ensemble de paires clé/valeur), des listes ordonnées de valeur (tableaux)
+
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
+
 23.	Qu’est-ce qu’un sélecteur CSS ?
     Un sélecteur définit les éléments sur lesquels les styles s’appliquent.
-    ●	Sélecteur de type : <input> | sélecteur de classe : .nomclasse | sélecteurs d’identifiants : #valeurid (unique)
+    + Sélecteur de type : <input> | 
+    + sélecteur de classe : .nomclasse | 
+    + sélecteurs d’identifiants : #valeurid (unique)
 
 24.	Quelle balise HTML permet de créer un lien hypertexte ?
     La balise <a href =’#url’> description du lien </a>
+
 25.	Qu’est-ce qu’une requête AJAX ?
+
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
-    sélecteur de classe : .nomclasse | sélecteurs d’identifiants : #valeurid (unique)
+    + sélecteur de classe : .nomclasse | 
+    + sélecteurs d’identifiants : #valeurid (unique)
+
 27.	Définir le responsive design
     Ensemble de pratiques qui permet aux pages web de modifier leur disposition et leur apparence pour s’adapter à différentes largeurs d’écran
+
 28.	Qu’est-ce que le templating ?
     Les templates améliorent l’organisation du code en séparant la présentation( l’affichage)  du reste de l’application.
+
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
     Une fonction anonyme est une fonction qui ne possède pas de nom ; le nom d’une fonction est facultatif. Les fonctions anonymes sont généralement utilisées lorsque l’on n’a pas besoin de l’appeler par son nom : son code est appelé qu’à un endroit et n’est pas réutilisé. On peut l’exécuter :
     -	en affectant notre fonction à une variable ; on pourra alors appeler cette variable et exécuter la fonction qu’elle contient : let alerte = function() {…} ; alerte() ;
@@ -141,9 +152,9 @@ Liste, collection, qui associe 1 clé à 1 valeur (tableau associatif)
 
 ## UX UI
 35.	Quelle est la différence entre UX Design et UI Design ?
-    UX : User eXperience Design (UXD) est une méthode de conception centrée sur l’utilisateur : l’objectif est de concevoir la meilleure expérience utilisateur possible. Pour résumer l’UX : comment prendre en compte les exigences d’usage au long du processus de conception du produit. Les étapes sont : Analyse (User Research: observer comportement utilisateurs), Conception(maquetter les solutions pour répondre aux besoins des utilisateurs), Évaluation(test utilisateur)
+    + UX : User eXperience Design (UXD) est une méthode de conception centrée sur l’utilisateur : l’objectif est de concevoir la meilleure expérience utilisateur possible. Pour résumer l’UX : comment prendre en compte les exigences d’usage au long du processus de conception du produit. Les étapes sont : Analyse (User Research: observer comportement utilisateurs), Conception(maquetter les solutions pour répondre aux besoins des utilisateurs), Évaluation(test utilisateur)
 
-    UI Design : User Interface (UID) est l’étape de conception de l’interface utilisateur : l’expérience utilisateur(UX) est liée au design graphique de l’interface (UI). UI englobe tout ce qui s’apparente au graphisme, à l’aspect agencement : polices, icônes, couleurs, disposition boutons navigations etc
+    + UI Design : User Interface (UID) est l’étape de conception de l’interface utilisateur : l’expérience utilisateur(UX) est liée au design graphique de l’interface (UI). UI englobe tout ce qui s’apparente au graphisme, à l’aspect agencement : polices, icônes, couleurs, disposition boutons navigations etc
 
 36.	Qu’est-ce qu’un wireframe ? 
     Maquette “fil de fer” de l’interface : schéma de la structure et des fonctionnalités de l’appli.
@@ -162,6 +173,7 @@ Liste, collection, qui associe 1 clé à 1 valeur (tableau associatif)
 
 43.	Donner une définition de la programmation orientée objet 
     Consiste à modéliser un système comme un ensemble d’objets, où chaque objet représente un aspect du système. Les objets contiennent des fonctions (méthodes). Un objet fournit une interface publique pour le reste du code qui voudrait l’utiliser, mais maintient son propre état interne.
+
 44.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
     Une classe est une représentation abstraite d’un objet : c’est la somme des propriétés de l’objet. On déclare une classe avec le mot-clé class suivi du nom de la classe et des {} ; on déclare ensuite ses attributs et méthodes. 
 
@@ -169,14 +181,14 @@ Liste, collection, qui associe 1 clé à 1 valeur (tableau associatif)
     On peut rendre une classe concrète au moyen d’une instance de classe (1 objet) : on instancie la classe. Un objet est un exemple concret de la classe. En PHP, on instancie une classe avec le mot-clé new (càd qu’on crée 1 objet)
 
 46.	Définir la notion de propriété / attribut / méthode
-    ●	Les propriétés (properties) ou attributs sont des variables définies/déclarées au sein d’une classe.
-    ●	Les méthodes sont les fonctions définies/déclarées à l’intérieur d’une classe.
+    +	Les propriétés (properties) ou attributs sont des variables définies/déclarées au sein d’une classe.
+    +	Les méthodes sont les fonctions définies/déclarées à l’intérieur d’une classe.
 
 47.	Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
     La visibilité d’1 propriété ou d’une méthode définit son accessibilité. Les propriétés et méthodes peuvent avoir une visibilité publique, privée ou protégée. On définit la visibilité avec un mot-clé avant la déclaration ; sans mot-clé la visibilité est automatiquement définie comme publique
-    ●	public : les éléments sont accessibles partout
-    ●	private : les éléments sont réservés à la classe qui les a définis
-    ●	protected : l’accès est réservé à la classe elle-même ainsi qu’aux classes qui en héritent
+    +	public : les éléments sont accessibles partout
+    +	private : les éléments sont réservés à la classe qui les a définis
+    +	protected : l’accès est réservé à la classe elle-même ainsi qu’aux classes qui en héritent
 
 48.	Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
     Le constructeur _ _ construct($values) permet de créer une nouvelle instance de classe. On peut passer des arguments dans la méthode construct.
@@ -212,8 +224,8 @@ Liste, collection, qui associe 1 clé à 1 valeur (tableau associatif)
     L’auto-chargement de classes. Les classes sont séparées dans différents fichiers individuels ; lorsque l’on veut charger chacune des classes, on doit donc le faire avec une inclusion (require). L’autoload permet d’inclure et de charger plusieurs classes
     
 58.	Comment appelle-t-on en français les « getters » et les « setters » ?
-    ●	Getters -> accesseurs : permettent de retourner la valeur d’une variable
-    ●	Setters -> mutateurs : permettent de modifier la valeur d’une variable
+    +	Getters -> accesseurs : permettent de retourner la valeur d’une variable
+    +	Setters -> mutateurs : permettent de modifier la valeur d’une variable
 
 59.	Qu’est-ce que la sérialisation en PHP ? 
 
@@ -241,7 +253,8 @@ Liste, collection, qui associe 1 clé à 1 valeur (tableau associatif)
 65.	Existe-t-il des variantes à l’architecture MVC ?
 66.	Qu’est-ce qu’une API ? Définir l’architecture REST
 
-## Modélisation - Base de données
+## Modélisation - Base de données 
+
 67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
 68.	Quelles sont les 3 étapes principales de la méthode Merise ? 
 a.	Analyse, conception et réalisation
@@ -255,12 +268,20 @@ b.	Relation
 c.	Cardinalité
 d.	Clé primaire / clé étrangère
 72.	Que devient une relation de type « Many To Many » dans le modèle logique de données ?
+
 73.	Qu’est-ce qu’une base de données ?
+Une base de données est un ensemble d'informations qui est organisé de façon à être accessible, géré et mis à jour. C'est une méthode de stockage, de gestion et de récupération de l'information.
+
 74.	Définir les notions suivantes : 
-a.	SQL
-b.	MySQL
-c.	SGBD (donner 2 exemples de SGBD)
-75.	Dans une base de données, les données sont stockées dans des ___. Celles-ci sont constituées de lignes appelées ___ et de colonnes appelées ___
+
+a.	SQL : Structured Query Language. Langage de requête structuré. Langage de programmation permettant de stocker et de traiter des informations dans une base de données relationnelle (càd sous forme de tableau, avec des lignes et des colonnes représentants différents attributs de données et les diverses relations entre les valeurs de données)
+
+b.	MySQL : Un système de gestion de base de données (SGBD) open-source.
+
+c.	SGBD (donner 2 exemples de SGBD) : Système de gestion de base de données. Logiciel permettant de stocker manipuler ou gérer des données dans une base de données. Ex: MariaDb, MongoDB, MySQL, Oracle DataBase
+
+75.	Dans une base de données, les données sont stockées dans des tables. Celles-ci sont constituées de lignes appelées enregistrement et de colonnes appelées attribut
+
 76.	Quelle est la différence entre une base de données relationnelle et non relationnelle ?
 77.	Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
 78.	A quoi sert une vue dans une base de données ?
@@ -268,17 +289,21 @@ c.	SGBD (donner 2 exemples de SGBD)
 80.	Quelles sont les fonctions d’agrégation en SQL ?
 81.	Qu’est-ce qu’un CRUD dans le contexte d’une base de données ?
 82.	Quelles sont les clauses qui permettent de :
-a.	Insérer un nouvel enregistrement dans une table
-b.	Modifier un enregistrement dans une table
-c.	Supprimer un enregistrement dans une table
-d.	Supprimer la base de données
+a.	Insérer un nouvel enregistrement dans une table - INSERT INTO table
+b.	Modifier un enregistrement dans une table - UPDATE table
+c.	Supprimer un enregistrement dans une table - DELETE FROM table 
+d.	Supprimer la base de données - DROP 
 e.	Filtrer les résultats d’une requête SQL
 f.	Trier les résultats d’une requête SELECT
-g.	Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
-h.	Concaténer 2 chaînes de caractères 
+g.	Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique - WHERE 
+h.	Concaténer 2 chaînes de caractères - CONCACT
+
 83.	Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+On se connecte à une base de données en PHP en utilisant la classe native PDO - PHP Data Object.
+
 
 ## Symfony
+
 84.	Qu’est-ce que Symfony ?
 85.	Sur quel langage de programmation et design pattern repose Symfony ? 
 86.	Quelle est la dernière version en date de Symfony ?
@@ -291,6 +316,7 @@ h.	Concaténer 2 chaînes de caractères
 93.	Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
 
 ## Sécurité
+
 94.	Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
 95.	Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
 96.	Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
@@ -303,18 +329,39 @@ h.	Concaténer 2 chaînes de caractères
 103.	Définir la « validation des entrées »
 
 ## RGPD
+
 104.	Qu’est-ce que le RGPD ?
+Réglement Général sur la Protection des Données (GDPR en anglais). Il encarde le traitement des données personnelles sur le territoire de l'Union Européenne.
+
 105.	Quel est son objectif principal ?
+Il fixe les conditions dans lesquelles les données peuvent être collectées, conservées et exploitées, en harmonie sur le territoire de l'Union Européenne.
+
 106.	Quelle est la date d’entrée en vigueur du RGPD ?
+Applicable depuis le 25 mai 2018
+
 107.	Quelles sont les sanctions possibles en cas de non-respect du RGPD ?
-108.	En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?
+Rappel à l'ordre, ordonner de satisfaire aux demandes d'exercice des droits des personnes, sanctions péuniaire (jusqu'à 20 millions d'€ ou jusqu'à 4% du chiffre d'affaire annuel mondial)
+
+108.	En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ? 
+La CNIL - Commission Nationale de l'Informatique et des Libertés. Elle est chargée de veiller à la protection des données personnelles contenues dans les fichiers et traitements informatiques ou papiers, publics ou privés.
+
 109.	Quel est le consentement valide selon le RPGD ?
+Un consentement est valable lorsqu'il s'agit d'une manifestation de volonté, libre, spécifique, éclairée et univoque par laquelle une personne accepte par une déclaration ou un acte positif clair
+
 110.	Qu’est-ce qu’une politique de confidentialité ?
+Il s'agit d'un contrat qui décrit comment une société retient, traite, publie et efface les données transmises par ses clients. L'information doit être concise et transparente, compréhensible et accessible aisément.
+
 111.	Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
+Les données ne peuvent pas être conservées indéfiniment, elles peuvent être conservées 5 ans maximum. 
+
 112.	Quels sont les droits des utilisateurs selon le RGPD ?
+Droit d'information, d'accès, de rectification, d'opposition, à l'affacement (à l'oubli), à la portabilité, ...
+
 113.	Qu’est-ce que le principe de minimisation des données selon le RGPD ?
+Ce principe prévoit que les données à caractère personnel doivent être adéquates, pertinentes et limitées à ce qui est nécessaire au regard des finalités pour lesquelles elles sont traitées.
 
 ## SEO
+
 114.	Qu’est-ce que le SEO ? 
 115.	Quel est l’objectif principal du SEO ?
 116.	Existe-t-il plusieurs types de référencement ? Lesquels ?
@@ -330,6 +377,7 @@ h.	Concaténer 2 chaînes de caractères
 126.	Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
 
 ## Gestion de projets - DevOps
+
 127.	Qu’est-ce que la gestion de projet ?	
 128.	Qu’est-ce qu’une méthode Agile de gestion de projet ? 
 129.	Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
@@ -348,6 +396,7 @@ h.	Concaténer 2 chaînes de caractères
 142.	Qu'est-ce qu'une assertion dans un test unitaire ?
  
 ## English
+
 1)	What does JavaScript enable you to do on a website ?
 a.	Add interactive behavior and dynamic content
 b.	Define the layout and design of web pages
