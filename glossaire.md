@@ -111,7 +111,7 @@ Liste, collection, qui associe 1 clé à 1 valeur (tableau associatif)
     + sélecteurs d’identifiants : #valeurid (unique)
 
 24.	Quelle balise HTML permet de créer un lien hypertexte ?
-    La balise <a href =’#url’> description du lien </a>
+    La balise <a href ="#url"> description du lien </a>
 
 25.	Qu’est-ce qu’une requête AJAX ?
 
@@ -283,6 +283,10 @@ c.	SGBD (donner 2 exemples de SGBD) : Système de gestion de base de données. L
 75.	Dans une base de données, les données sont stockées dans des tables. Celles-ci sont constituées de lignes appelées enregistrement et de colonnes appelées attribut
 
 76.	Quelle est la différence entre une base de données relationnelle et non relationnelle ?
+    Les bases de données relationnelles (SQL) et non relationnelles (NoSQL) sont 2 méthodes de stockage de données. 
+    + La base de données relationnelle stocke les données sous forme de table avec des lignes et des colonnes. Les tables peuvent être liées entre elles.
+    + La base de données non relationnelle ne stocke pas les données sous forme de table. Plusieurs modèles de stockage peut être utilisés : par ex sous forme de paires clé/valeurs, de documents JSON.
+    
 77.	Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
 78.	A quoi sert une vue dans une base de données ?
 79.	Qu’est-ce que l’intégrité référentielle dans une base de données ?
