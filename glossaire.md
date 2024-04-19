@@ -58,6 +58,7 @@ Liste, collection, qui associe 1 clé à 1 valeur (tableau associatif)
 
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
     strlen($string) : int – retourne la taille d’une chaine de caractères.
+
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
     
     Une session est l’ensemble des interactions par l’utilisateur sur le site durant un temps donné (généralement 30mn) : visiter plusieurs pages d’un même site, enregistrer des articles dans 1 panier, poster des messages dans un tableau de bord.
@@ -114,6 +115,8 @@ Liste, collection, qui associe 1 clé à 1 valeur (tableau associatif)
     La balise <a href ="#url"> description du lien </a>
 
 25.	Qu’est-ce qu’une requête AJAX ?
+    AJAX = Asynchronous JavaScript and XML
+    combine JS et la manipulation du DOM pour modifier l'informayion présentée dans le navigateur. Permet de construire des applications dynamiques.
 
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
     + sélecteur de classe : .nomclasse | 
@@ -251,12 +254,16 @@ Liste, collection, qui associe 1 clé à 1 valeur (tableau associatif)
 64.	Quels sont les avantages de l’architecture MVC ?
     
 65.	Existe-t-il des variantes à l’architecture MVC ?
+
 66.	Qu’est-ce qu’une API ? Définir l’architecture REST
 
 ## Modélisation - Base de données 
 
 67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
+    La méthode Merise est une méthode d'analyse, de conception et de gestion de projet info. Elle consiste à passer du temps à concevoir et à se documenter avant de commencer la rédaction de code: définir les objectifs; délimiter les fonctionnalités; modéliser conceptuellement les données, etc.
+
 68.	Quelles sont les 3 étapes principales de la méthode Merise ? 
+    
 a.	Analyse, conception et réalisation
 b.	Planification, exécution et contrôle
 c.	Création, modification et suppression
